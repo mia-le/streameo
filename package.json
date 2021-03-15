@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "workspaces": [
+    "api",
+    "client",
+    "rtmp"
+  ],
+  "scripts": {
+    "start": "yarn workspace client serve",
+    "build": "yarn workspace client build"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
+    "path": "^0.12.7"
+  }
+}
