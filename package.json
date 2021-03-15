@@ -6,7 +6,7 @@
     "rtmp"
   ],
   "scripts": {
-    "start": "yarn workspace client serve",
+    "start": "yarn workspace client start",
     "build": "yarn workspace client build"
   },
   "dependencies": {
